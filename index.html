@@ -2,27 +2,107 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width-device-width">
-	<title>CV de Andrés Yakymchuk</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Currículum Vitae - Andrés Yakymchuk</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 20px;
+			line-height: 1.6;
+			color: #1a1a1a;
+		}
+		article {
+			max-width: 900px;
+		}
+		section {
+			margin-bottom: 24px;
+		}
+		h1, h2 {
+			color: #003366;
+		}
+		ul {
+			margin-left: 20px;
+		}
+		img {
+			max-width: 200px;
+			height: auto;
+			border-radius: 8px;
+			float: right;
+			margin-left: 16px;
+		}
+		nav ul {
+			list-style-type: disc;
+		}
+		nav a {
+			color: #003366;
+			text-decoration: none;
+		}
+		nav a:hover {
+			text-decoration: underline;
+		}
+	</style>
 </head>
 <body>
-	<h1>Index</h1>
-	<h2>Andrés Yakymchuk</h2>
-	<a href="andr.png"><img src="andr.png" alt="Foto de Andrés Yakymchuk" style="width: 200px; height: auto; float: right;"></a>
-	<p>Programador de Python | Torrevieja, España</p>
-	<p>Teléfono: 654123123</p>
-	<p>Correo electrónico: andyak2@alu.edu.gva.es</p>
-	<p>LinkedIn: linkedin.com/in/andresh</p>
+	<article>
+		<header>
+			<h1>Currículum Vitae</h1>
+			<p><strong>Andrés Yakymchuk</strong></p>
+		</header>
 
-	<nav>
-		<ul>
-			<li><a href="perfil.html" target="_blank">Perfil Profesional</a></li>
-			<li><a href="experiencia.html" target="_blank">Experiencia Profesional</a></li>
-			<li><a href="formacion.html" target="_blank">Formación</a></li>
-			<li><a href="habilidades.html" target="_blank">Habilidades</a></li>
-		</ul>
-	</nav>
+		<section>
+			<h2>Datos personales</h2>
+			<img src="andr.png" alt="Foto de Andrés Yakymchuk">
+			<p>Programador de Python con interés en desarrollo web, automatización y buenas prácticas de código.</p>
+			<ul>
+				<li>Teléfono: 654 123 123</li>
+				<li>Correo electrónico: andyak2@alu.edu.gva.es</li>
+				<li>LinkedIn: <a href="https://linkedin.com/in/andresh" target="_blank" rel="noopener">linkedin.com/in/andresh</a></li>
+			</ul>
+		</section>
 
-</body>  
+		<section>
+			<h2>Perfil profesional</h2>
+			<p>Profesional orientado a la resolución de problemas con habilidades para aprender nuevas tecnologías y trabajar en equipo. Busco oportunidades para mejorar procesos y contribuir en proyectos de software.</p>
+		</section>
+
+		<section>
+			<h2>Experiencia destacada</h2>
+			<p>He trabajado en proyectos personales y académicos que me han permitido desarrollar software, crear documentación y colaborar con otras personas.</p>
+			<ul>
+				<li>Desarrollo de scripts en Python para automatizar tareas repetitivas.</li>
+				<li>Participación en pruebas y documentación técnica.</li>
+				<li>Mejora continua del código aplicando organización básica y legibilidad.</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Formación</h2>
+			<ul>
+				<li>Educación Secundaria y estudios relacionados con informática.</li>
+				<li>Autoaprendizaje de Python, HTML y uso básico de Git.</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Habilidades</h2>
+			<ul>
+				<li>Lenguajes: Python, HTML</li>
+				<li>Control de versiones: Git</li>
+				<li>Herramientas: editores de texto y navegador web</li>
+				<li>Comunicación: trabajo en equipo y redacción clara</li>
+			</ul>
+		</section>
+
+		<nav>
+			<h2>Enlaces del CV</h2>
+			<ul>
+				<li><a href="perfil.html" target="_blank" rel="noopener">Perfil Profesional</a></li>
+				<li><a href="experiencia.html" target="_blank" rel="noopener">Experiencia Profesional</a></li>
+				<li><a href="formacion.html" target="_blank" rel="noopener">Formación</a></li>
+				<li><a href="habilidades.html" target="_blank" rel="noopener">Habilidades</a></li>
+			</ul>
+		</nav>
+	</article>
+</body>
 </html>
 
