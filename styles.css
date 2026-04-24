@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: rgb(75, 145, 125);
+}
+
+p {
+    margin-bottom: 10px;
+    color: rgb(52, 57, 56)
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+a:link,
+a:visited {
+    color: rgb(75, 145, 125);
+}
+
+a:hover {
+    color: rgb(55, 115, 100);
+}
+
+body
+{
+    background-color: rgb(220, 255, 230);
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
